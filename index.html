@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  <header>
+    <h1>Encriptador</h1>
+  </header>
+<main>
+  <div id="main_content">
+    <p>Digite aqui sua mensagem:</p>
+    <textarea name="message" id="msg"></textarea>
+    <div>
+        <input type="radio" name="tipo_codific" id="base64">
+        <labels> Base 64</label>
+        <input type="radio" name="tipo_codific" id="cifraDeCesar">
+        <label> Cifra de César</label>
+    </div>
+    <div id="incremento">
+        <!--Caixa de incremento da Cifra de César-->
+    </div>
+    <div class="radioButton">
+    <div>
+        <input type="radio" name="bola" value="codificar" id="codificar">
+        <label for="codificar">
+        Codificar</label>
+    </div>
+    <div>
+        <input type="radio" name="bola" value="decodificar" id="decodificar">
+        <label for="codificar">
+        Decodificar</label>
+    </div>
+    </div>
+    <div id="button_container">
+        <p>Selecione se codifica ou decodifica!</p>
+    </div>
+  </div>
+  <div id="answer">
+    
+  </div>
+  
+</main>
+  <footer class="rodape">
+  
+    <div>
+      Renato
+    </div>
+    <div>
+      Resilia - 2022
+    </div>
+  
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
